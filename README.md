@@ -13,7 +13,7 @@ Following functionalities are implemented in this simulator:
 6. Acknowledgement after withdrawing money.
 7. Checking current balance.
 8. Checking account status.
-9. Alert boxes for handling abnormal situations.
+9. Alert boxes for handling abnormal events.
 10. MySQL Database connectivity using JDBC.
 
 
