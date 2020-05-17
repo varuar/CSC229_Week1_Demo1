@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreatePageController">
+   <bottom>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="ATM Simulator by Arun Kumar." />
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="219.0" layoutY="28.0" text="Create New Account">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="102.0" layoutY="90.0" text="Name: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="102.0" layoutY="130.0" text="Mo. Number: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="102.0" layoutY="170.0" text="E-mail: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="102.0" layoutY="210.0" text="Initial Amount:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nameInput" layoutX="284.0" layoutY="88.0" minWidth="150.0" prefHeight="25.0" prefWidth="185.0" />
+            <TextField fx:id="numberInput" layoutX="284.0" layoutY="128.0" minWidth="150.0" prefWidth="185.0" />
+            <TextField fx:id="emailInput" layoutX="284.0" layoutY="168.0" minWidth="150.0" prefWidth="185.0" />
+            <TextField fx:id="initialAmountInput" layoutX="284.0" layoutY="208.0" minWidth="150.0" prefWidth="185.0" />
+            <Button fx:id="createAccountButton" layoutX="230.0" layoutY="275.0" mnemonicParsing="false" onAction="#createAccountButtonClicked" prefHeight="45.0" prefWidth="140.0" text="Create Account">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AccountPageController">
+   <bottom>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="ATM Simulator by Arun Kumar." />
+         </children>
+      </HBox>
+   </bottom>
+   <left>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="amountInput" alignment="CENTER" layoutX="27.0" layoutY="109.0" prefHeight="37.0" prefWidth="157.0" promptText="Enter Amount">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Button fx:id="depositButton" contentDisplay="CENTER" layoutX="61.0" layoutY="161.0" mnemonicParsing="false" onAction="#depositButtonClicked" prefHeight="30.0" prefWidth="88.0" text="Deposit">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="withdrawButton" contentDisplay="CENTER" layoutX="61.0" layoutY="204.0" mnemonicParsing="false" onAction="#withdrawButtonClicked" prefHeight="30.0" prefWidth="88.0" text="Withdraw">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="showDetailsButton" contentDisplay="CENTER" layoutX="23.0" layoutY="260.0" mnemonicParsing="false" onAction="#showDetailsButtonClicked" text="Show Account Details">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label contentDisplay="CENTER" layoutX="71.0" layoutY="36.0" text="WELCOME" />
+            <Label fx:id="welcomeUserName" layoutX="50.0" layoutY="53.0" text="TO BANK OF XYZ." textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="exitButton" contentDisplay="CENTER" layoutX="56.0" layoutY="331.0" mnemonicParsing="false" onAction="#exitButtonClicked" prefHeight="30.0" prefWidth="88.0" text="Exit">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="accountTextArea" layoutX="15.0" layoutY="23.0" prefHeight="336.0" prefWidth="371.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
