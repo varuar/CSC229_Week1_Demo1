@@ -1,7 +1,8 @@
 # ATMSimulator
 
 ATMSimulator is a JavaFX project created to simulate the workings of ATM Machines. In this project, I have used 
-Java 12.0.1. As the backend database, I've used MySQL database and for connectivity i've used JDBC.
+Java 12.0.1. As the backend database, I've used MySQL database and for connectivity i've used JDBC. The SQL file 
+contains the sql table that is used in this project.
 
 Following functionalities are implemented in this simulator:
 
