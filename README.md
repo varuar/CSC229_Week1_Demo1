@@ -22,3 +22,7 @@ In coming future i will be adding the following functionalities:
 
 1. Changing ATM Pin.
 2. Improving Overall UI.
+
+
+Screenshots: 
+1. https://user-images.githubusercontent.com/54059146/98045616-c9642d00-1e4e-11eb-96b2-afad9634d87e.jpg
