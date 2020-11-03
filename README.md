@@ -24,5 +24,38 @@ In coming future i will be adding the following functionalities:
 2. Improving Overall UI.
 
 
-Screenshots: 
-1. https://user-images.githubusercontent.com/54059146/98045616-c9642d00-1e4e-11eb-96b2-afad9634d87e.jpg
+## Screenshots ## 
+### 1. Initial Window ###
+![](Screenshots/1.%20InitialWindow.jpg)
+
+
+### 2. Account Creation Page ###
+![](Screenshots/2.%20AccountCreationPage.jpg)
+
+
+### 3. Account Creation Confirmation Dialogue ###
+![](Screenshots/3.%ConfirmationDialog.jpg)
+
+
+### 4. Homepage-1 ###
+![](Screenshots/4.%20HomePage-1.jpg)
+
+
+### 5. Homepage-2 ###
+![](Screenshots/5.%20HomePage-2.jpg)
+
+
+### 6. Money Desosit Update ###
+![](Screenshots/6.%20DepositUpdate.jpg)
+
+
+### 7. Money Deposit Confirmation ###
+![](Screenshots/7.%20DepositConfirmation.jpg)
+
+
+### 8. Money Withdraw Confirmation ###
+![](Screenshots/8.%20WithdrawConfirmation.jpg)
+
+
+### 9. Money Withdraw Confirmation ###
+![](Screenshots/9.%20WithdrawUpdate.jpg)
