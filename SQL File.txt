@@ -1,6 +1,6 @@
 create table accountholder(accountNumber varchar(5) not null primary key,
-								accountPin varchar(4) not null,
-								holderName varchar(30) not null,
+				accountPin varchar(4) not null,
+				holderName varchar(30) not null,
                                 holderNumber varchar(10),
                                 holderEmail varchar(40),
                                 holderBalance varchar(30) not null);
@@ -10,8 +10,3 @@ insert into accountholder values(10000,1000, "Root Account",0000000000,"database
 insert into accountholder values(10001,1001,"Arun Kumar",8527510000,"arunkumar@gmail.com",50000);
 insert into accountholder values(10002,1002,"Pushpa Mittal",9971000000,"pushpamittal@gmai.com",45000);
 
-drop table accountholder;
-
-select * from accountholder;
-
-select * from accountholder where holderName = "Arun Kumar";
