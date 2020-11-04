@@ -34,7 +34,7 @@ In coming future i will be adding the following functionalities:
 
 
 ### 3. Account Creation Confirmation Dialogue ###
-![](Screenshots/3.%ConfirmationDialog.jpg)
+![](Screenshots/3.%20ConfirmationDialog.jpg)
 
 
 ### 4. Homepage-1 ###
